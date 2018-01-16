@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #ffa;
+  height: 150px;
+  padding: 20px;
+  color: orange;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+iframe .response {
+  color: red;
+}
+
+.client , .agent {
+  padding: .5rem 1rem;
+  margin-right: 40px;
+  margin-bottom: .5vw;
+  border-radius: .5rem;
+}
+
+.client {
+  width: 40%;
+  margin-left: 45%;
+  text-align: right;
+  background-color: lightblue;
+}
+
+.agent {
+  width: 40%;
+  background-color: lightgray;
+  text-align: left;
+}
+
+li {
+  list-style: none
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
